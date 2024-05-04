@@ -93,7 +93,7 @@ describe('HSBC', function(){
         cy.get('.A-BTNP-RW-ALL').click()
     
         cy.get('.A-TYPS4L-RW-DEV.title.title-loaded').each(($el, index, list)=>{
-            //expect(list).to.have.length(3);
+            expect(list).to.have.length(3);
             cy.wrap($el).should('contain.text', example.popup1[index]);
             
     
