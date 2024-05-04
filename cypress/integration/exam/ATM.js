@@ -1,3 +1,5 @@
+scenario-2
+
 import example2page from '../pageObjects/example2page'
 
 describe('test_Scenario', function(){
