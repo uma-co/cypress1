@@ -1,0 +1,198 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"location":{"lat":38.383494,"lng":33.427362},"accuracy":50,"name":"Subha","phone_number":"946834765795","address":"pk street","types":["shoe park","shop"],"website":"http://rahulshettyacademy.com","language":"French-IN"}
+HTTP/1.1 200 OK
+Date: Wed, 03 Jul 2024 13:16:44 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "62ed3987e4315cd82e2269f2e982c7ca",
+    "scope": "APP",
+    "reference": "1348a6efec169f3224ec2e9145aa55f31348a6efec169f3224ec2e9145aa55f3",
+    "id": "1348a6efec169f3224ec2e9145aa55f3"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=62ed3987e4315cd82e2269f2e982c7ca
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=62ed3987e4315cd82e2269f2e982c7ca
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Jul 2024 13:16:45 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 236
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Subha",
+    "phone_number": "946834765795",
+    "address": "pk street",
+    "types": "shoe park,shop",
+    "website": "http://rahulshettyacademy.com",
+    "language": "French-IN"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"location":{"lat":38.383494,"lng":33.427362},"accuracy":50,"name":"Subha R","phone_number":"94638768","address":"OK street","types":["shoe park","shop"],"website":"http://rahulshettyacademy.com","language":"French-IN"}
+HTTP/1.1 200 OK
+Date: Wed, 03 Jul 2024 13:16:47 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "968a12cb11b5dd0678f1877a7e844b56",
+    "scope": "APP",
+    "reference": "a6ee5e812c600d90c2e09e2e532f1387a6ee5e812c600d90c2e09e2e532f1387",
+    "id": "a6ee5e812c600d90c2e09e2e532f1387"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=968a12cb11b5dd0678f1877a7e844b56
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=968a12cb11b5dd0678f1877a7e844b56
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Jul 2024 13:16:47 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 234
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Subha R",
+    "phone_number": "94638768",
+    "address": "OK street",
+    "types": "shoe park,shop",
+    "website": "http://rahulshettyacademy.com",
+    "language": "French-IN"
+}
+Request method:	PUT
+Request URI:	https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"place_id":"968a12cb11b5dd0678f1877a7e844b56",
+"address":"null",
+"key":"qaclick123"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Jul 2024 13:16:49 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 38
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Address successfully updated"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"place_id":"968a12cb11b5dd0678f1877a7e844b56"}
+HTTP/1.1 200 OK
+Date: Wed, 03 Jul 2024 13:16:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
